@@ -2,7 +2,7 @@
 An application to register and control medications
 
 ## 🏗 Installation
-Select the main [page](https://github.com/renantb/truepill-app) of application and paste on your terminal ```git clone https://github.com/renantb/truepill-app.git``` 
+Select the [main page](https://github.com/renantb/truepill-app) of application and paste on your terminal ```git clone https://github.com/renantb/truepill-app.git``` 
 
 To open you just need to right-click on the index.html file and select the open with and select the browser option (I recommend using [Chrome](https://www.google.com/chrome/) or [Mozilla](https://www.mozilla.org/pt-PT/firefox/new/))
 

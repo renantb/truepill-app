@@ -12,7 +12,7 @@ To open you just need to right-click on the index.html file and select the open 
 It is also possible to access it through a [Visual Studio Code](https://code.visualstudio.com/download) plugin called [Live Server](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer), just open the index.html file and right-click on the file and select the option: Open with Live Server.
 
 💻 This application was developed using HTML 5, CSS 3, Javascript and JQuery. It's purpose is to serve as a medication registry and inventory control. 
-The user provides the amount of the drug and through a [table](https://github.com/renantb/truepill-app/blob/main/Medications.jpg) at figure below and he adds the strength and size of the package of each drug.
+The user provides the amount, strength and pack size of the drug and through a [table](https://github.com/renantb/truepill-app/blob/main/Medications.jpg) at figure below and he adds the strength and size of the package of each drug.
 There are three buttons: Register (records the medication), Clear (clears the fields) and Stock Levels (checks the stock levels, shown in a table below the application).
 
 ## 🗂 Table of medications, strength and pack sizes

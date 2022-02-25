@@ -31,8 +31,5 @@ Pull requests are welcome. For major changes, please open an issue first to disc
 
 Please make sure to update tests as appropriate.
 
-## :memo: Licence
-
-This project is under the MIT license. See the [LICENSE](.github/LICENSE.md) file for more details.
 
 Made by [Renan](https://github.com/renantb)

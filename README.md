@@ -26,6 +26,11 @@ There are three buttons: Register (records the medication), Clear (clears the fi
 - I’ve tried to match the buttons and colors with those of the Truepill UK sites.
 - You can delete the table by clicking on the left mouse button, select the inspect option, then on application, Storage, Local Storage and left-click on Value and select delete.
 
+## Contributing
+Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
+
+Please make sure to update tests as appropriate.
+
 ## :memo: Licence
 
 This project is under the MIT license. See the [LICENSE](.github/LICENSE.md) file for more details.

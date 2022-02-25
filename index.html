@@ -1,0 +1,77 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="jquery-3.6.0.min.js"></script>
+    <script src="functions.js"></script>
+    <title>Truepill Pharmacy Stock Control</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+      <!--Form: Medication name, strength, pack size and amount-->
+    <form id="registration">
+      <table >
+        <caption>
+          <p>Truepill Pharmacy</p>
+          Registration of new medications <br>and stock check
+        </caption>
+        <!-- Name of medication -->
+        <tr>
+          <td class="label">Medication name:</td>
+          <td>
+            <select id="txtNameMedication">
+              <option value="Amoxicillin">Amoxicillin</option>
+              <option value="Codeine">Codeine</option>
+              <option value="Diclofenac">Diclofenac</option>
+              <option value="Ibuprofen">Ibuprofen</option>
+              <option value="Paracetamol">Paracetamol</option>
+              <option value="Simvastatin">Simvastatin</option>
+              <option value="Tramadol">Tramadol</option>
+              <option value="Warfarin">Warfarin</option>
+            </select>
+          </td>
+        </tr>
+        <!-- Amount of medication -->
+        <tr>
+          <td class="label">Amount:</td>
+          <td><input type="number" id="quantityMedication" /> packs</td>
+        </tr>        
+        <!-- Strength of medication -->
+        <tr>
+          <td class="label">Strength:</td>
+          <td>
+            <input type="number" id="txtStrengthMedication" /> mg
+          </td>
+        </tr>
+         <!-- Pack size of medication -->
+         <tr>
+          <td class="label">Pack Size:</td>
+          <td>
+            <input type="number" id="txtPackSizeMedication" />      
+          </td>
+        </tr>        
+        <!-- Buttons -->
+        <tr>
+          <td colspan="2" align="center">
+            <input
+              id="input-register"
+              type="button"
+              value="Register"
+              class="button"
+            />
+            <input type="reset" value="Clear" class="button" />
+            <input
+              id="input-stock-list"
+              type="button"
+              value="Stock Levels"
+              class="button"
+            />
+          </td>
+        </tr>
+      </table>
+    </form>
+    <div id="stock-list">
+
+    </div>
+  </body>
+</html>
